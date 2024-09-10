@@ -1,0 +1,285 @@
+.survey-form {
+	width: 80%;
+	margin: auto;
+	margin-top: 40px;
+}
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+.form-group label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group textarea,
+.form-group select,
+.form-group input[type="date"] {
+	width: 100%;
+	padding: 8px;
+	box-sizing: border-box;
+}
+
+.form-group textarea {
+	resize: vertical;
+}
+
+.button {
+	background-color: #007bff;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+.button:hover {
+	background-color: #0056b3;
+}
+
+.question {
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background-color: #f9f9f9;
+}
+
+.options {
+	margin-top: 10px;
+}
+
+.add-option {
+	margin-top: 10px;
+	background-color: blanchedalmond;
+}
+
+/* Buttons for the management of each question */
+.actions {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.actions i {
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+/* Styling for delete and duplicate icons */
+.actions .fa-trash {
+	color: red;
+}
+
+.actions .fa-copy {
+	color: #007bff; /* Adjust this color to your preference */
+}
+
+/* Vertical line separator */
+.separator {
+	border-left: 1px solid #ccc;
+	height: 20px;
+	margin: 0 10px;
+}
+
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 34px;
+	height: 20px;
+}
+
+.switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	transition: .4s;
+	border-radius: 34px;
+}
+
+.slider:before {
+	position: absolute;
+	content: "";
+	height: 12px;
+	width: 12px;
+	left: 4px;
+	bottom: 4px;
+	background-color: white;
+	transition: .4s;
+	border-radius: 50%;
+}
+
+input:checked + .slider {
+	background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+	transform: translateX(14px);
+}
+
+.slider.round {
+	border-radius: 34px;
+}
+
+.slider.round:before {
+	border-radius: 50%;
+}
+
+#add-question {
+	background-color: #007bff; /* Button background color */
+	color: black; /* Button text color */
+	border: none; /* Remove default border */
+	padding: 10px 20px; /* Padding around the button text */
+	text-align: center; /* Center-align text */
+	text-decoration: none; /* Remove underline from text */
+	display: inline-block; /* Inline-block display */
+	font-size: 16px; /* Font size */
+	margin: 4px 2px; /* Margin around the button */
+	cursor: pointer; /* Pointer cursor on hover */
+	border-radius: 4px; /* Rounded corners */
+	transition: background-color 0.3s ease; /* Transition effect */
+}
+
+#add-question:hover {
+	background-color: #0056b3; /* Button background color on hover */
+}
+
+.intropage h1 {
+	justify-content: center;
+	color: black;
+	margin-left: 480px;
+}
+
+
+
+/* css dashboard for test*/
+.conditional-logic {
+	background-color: #f9f9f9;
+	padding: 15px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+.condition-row {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 10px;
+}
+
+.condition-row select,
+.condition-row input {
+	flex-grow: 1;
+}
+.delete-condition {
+	background-color:red;
+	color: white;
+	border: none;
+	padding: 5px 10px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.add-condition,
+.add-rule-group-btn {
+	background-color: #007bff;
+	color: white;
+	border: none;
+	padding: 5px 10px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.delete-condition i {
+	color: white;
+	font-size: 14px;
+}
+
+.add-rule-group {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-top: 10px;
+}
+
+.add-rule-group span {
+	font-weight: bold;
+}
+
+.add-option {
+	background-color: #17a2b8;
+	color: white;
+	border: none;
+	padding: 5px 10px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.actions {
+	display: flex;
+	justify-content: flex-end;
+	gap: 10px;
+	align-items: center;
+}
+
+
+/* Style for AND/OR dropdowns between conditions */
+.connector-dropdown {
+	background-color: transparent; /* Transparent background */
+	border: 1px solid #218838; /* Darker green border */
+	color: #28a745; /* Green text */
+	border-radius: 4px;
+	padding: 3px 8px; /* Smaller padding for compact appearance */
+	font-weight: bold;
+	margin: 5px 0; /* Smaller margin */
+	transition: color 0.3s ease; /* Smooth transition effect */
+	font-size: 12px; /* Smaller font size */
+}
+
+/* Style for AND/OR dropdowns between groups */
+.group-connector {
+	background-color: transparent; /* Transparent background */
+	border: 1px solid #218838; /* Darker green border */
+	color: #28a745; /* Green text */
+	border-radius: 4px;
+	padding: 3px 8px; /* Smaller padding for compact appearance */
+	font-weight: bold;
+	margin: 10px 0; /* Adjusted margin for consistent spacing */
+	transition: color 0.3s ease; /* Smooth transition effect */
+	font-size: 12px; /* Smaller font size */
+}
+
+/* Hover effect for both connectors */
+.connector-dropdown:hover, .group-connector:hover {
+	color: #1e7e34; /* Darker green text on hover */
+}
+
+/* Additional spacing and alignment */
+.connector-dropdown, .group-connector {
+	display: inline-block;
+	vertical-align: middle;
+	width: auto; /* Ensure dropdowns fit their content */
+}
+
+/* Consistent spacing between question/group and the next element */
+.condition-group, .question {
+	margin-bottom: 15px; /* Consistent bottom margin */
+}
+

@@ -1,0 +1,108 @@
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #f7f7f7;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	text-align: center;
+	color: #4a4a4a;
+	margin-top: 20px;
+	font-size: 2em;
+}
+
+.add-survey-button {
+	display: inline-block;
+	padding: 10px 20px;
+	margin: 20px auto;
+	background-color: #007bff;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1em;
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+}
+
+.add-survey-button:hover {
+	background-color: #0056b3;
+}
+
+/* Table styles */
+.styled-table {
+	width: 90%;
+	margin: 20px auto;
+	border-collapse: collapse;
+	background: #ffffff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.styled-table thead tr {
+	background-color: #007bff;
+	color: white;
+	text-align: left;
+}
+
+.styled-table th, .styled-table td {
+	padding: 12px 15px;
+	text-align: left;
+	border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr {
+	border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+	background-color: #f9f9f9;
+}
+
+.styled-table tbody tr:last-of-type {
+	border-bottom: 2px solid #007bff;
+}
+
+.styled-table tbody tr:hover {
+	background-color: #f1f1f1;
+}
+
+/* Button styles */
+.update-button, .delete-button {
+	display: inline-block;
+	padding: 5px 10px;
+	font-size: 1em;
+	border-radius: 5px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	transition: background-color 0.3s ease;
+}
+
+.update-button {
+	background-color: #28a745;
+}
+
+.update-button:hover {
+	background-color: #218838;
+}
+
+.delete-button {
+	background-color: #dc3545;
+}
+
+.delete-button:hover {
+	background-color: #c82333;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+	.styled-table, .add-survey-button {
+		width: 100%;
+	}
+
+	h1 {
+		font-size: 1.5em;
+	}
+}

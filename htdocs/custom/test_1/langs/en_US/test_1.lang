@@ -1,0 +1,55 @@
+# Copyright (C) 2024 SuperAdmin
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+#
+# Generic
+#
+
+# Module label 'ModuleTest_1Name'
+ModuleTest_1Name = Test_1
+# Module description 'ModuleTest_1Desc'
+ModuleTest_1Desc = Test_1 description
+
+#
+# Admin page
+#
+Test_1Setup = Test_1 setup
+Settings = Settings
+Test_1SetupPage = Test_1 setup page
+NewSection=New section
+TEST_1_MYPARAM1 = My param 1
+TEST_1_MYPARAM1Tooltip = My param 1 tooltip
+TEST_1_MYPARAM2=My param 2
+TEST_1_MYPARAM2Tooltip=My param 2 tooltip
+
+
+#
+# About page
+#
+About = About
+Test_1About = About Test_1
+Test_1AboutPage = Test_1 about page
+
+#
+# Sample page
+#
+Test_1Area = Home Test_1
+MyPageName = My page name
+
+#
+# Sample widget
+#
+MyWidget = My widget
+MyWidgetDescription = My widget description

@@ -1,0 +1,10 @@
+AddSurvey=Add New Survey
+Title=Title
+Description=Description
+StartDate=Start Date
+EndDate=End Date
+Status=Status
+Draft=Draft
+Active=Active
+Closed=Closed
+Save=Save
